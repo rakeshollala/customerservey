@@ -1,0 +1,69 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#mainContainer{
+    width: 100%;
+    height: 800px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#childContainer{
+    width: 70%;
+    height: 600px;
+    background-color: white;
+}
+#text{
+    position: absolute;
+    top: 10px;
+    left: 30vw;
+    letter-spacing: 3px;
+    color: white;
+}
+.names{
+    position: relative;
+    top: 30px;
+    margin-left: 40px;
+    
+}
+.inputs{
+    width: 30%;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+.a{
+    position: relative;
+    top: 70px;
+    margin-left: 40px;
+    
+}
+.radio{
+    margin-left: 40px;
+    
+}
+#q2{
+     position: relative;
+     top: 20vh;
+}
+#q3{
+    position: relative;
+    top: 30vh;
+}
+#q4{
+    position: relative;
+    top: 40vh;
+}
+#inputbut{
+    width: 50%;
+    height: 100px;
+}
+#q5{
+    position: relative;
+    top: 42vh;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+}
